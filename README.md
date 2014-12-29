@@ -1,9 +1,36 @@
 optimum-cycle-mean-algorithms
 ==============================
 
-This directory contains the software that implements many optimum
+This package contains the software that implements many optimum
 cycle mean algorithms as detailed in [Da04]. I will refer to the
 software as CYCLE_MEAN for ease of reference.
+
+## OPTIMUM CYCLE MEAN PROBLEM
+
+Consider a cyclic graph where every edge has a single number
+associated with it, called its weight. The weight of a cycle is equal
+to the total weight of the edges along the cycle. The length of a
+cycle is equal to the number of edges along the cycle. The mean of a
+cycle is the total weight divided by the total length. The mean is
+like the average weight of the cycle; in other words, it is like
+saying what would be the edge weight of this cycle if each of its
+edges had the same weight.
+
+Refer to my optimum cycle ratio algorithms package to learn about a
+generalization of cycle means to cycle ratios.
+
+Finding the shortest (in weight) cycle is tractable but finding the
+longest (in weight) cycle is NP-hard. It is interesting that finding
+the cycle whose mean is optimum, i.e., maximum or mimimum, is
+tractable. The algorithms in this package solve this problem.
+
+This problem is fundamental to analysing the performance of discrete
+event systems. This is another way of saying if you need to find the
+optimum performance of a system, say, the optimum speed an electronic
+circuit can run at or the optimum capacity a railway network can
+carry, you will need the algorithms implemented in this package.
+
+## MORE INTRODUCTION
 
 I originally developed CYCLE_MEAN during my PhD study (which was
 PhinisheD in 1999) but re-implemented a couple of times to get the
