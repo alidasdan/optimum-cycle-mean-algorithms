@@ -21,10 +21,10 @@ generalization of cycle means to cycle ratios.
 
 Finding the shortest (in weight) cycle is tractable but finding the
 longest (in weight) cycle is NP-hard. It is interesting that finding
-the cycle whose mean is optimum, i.e., maximum or mimimum, is
+the cycle whose mean is optimum, i.e., maximum or minimum, is
 tractable. The algorithms in this package solve this problem.
 
-This problem is fundamental to analysing the performance of discrete
+This problem is fundamental to analyzing the performance of discrete
 event systems. This is another way of saying if you need to find the
 optimum performance of a system, say, the optimum speed an electronic
 circuit can run at or the optimum capacity a railway network can
@@ -55,7 +55,7 @@ executables. An executable named ALGO can be generated for any file
 named 'ad_alg_ALGO.cc'. The corresponding make target is ALGO. The
 executables are all have .x extension. You can also build the same
 target by using any prefix of the name. For example, you can build the
-executible 'yto.x' (of the Young-Tarjan-Orlin's algorithm) by typing
+executable 'yto.x' (of the Young-Tarjan-Orlin's algorithm) by typing
 'make yto' or 'make yt' or 'make y'.
 
 With no targets following the make command, the following executables
@@ -117,7 +117,7 @@ final min_lambda=       40.0 time=       0.00
 This output shows that the minimum cycle mean of the graph described
 in 'sample.d' is 40.0. To get the maximum cycle mean of the graph,
 run the same command followed by '-v 0', which should produce
-50.0. Note that the mimimum version is the default. Also note that the
+50.0. Note that the minimum version is the default. Also note that the
 output also shows how many seconds each main step of the program took.
 
 These flags should be self explanatory but as the usage information
@@ -159,7 +159,7 @@ a 4 1 30 20
 ```
 
 Here the 'p' line (the 'problem' line) states that our graph, named
-'sample', has 4 nodes or vertics and 7 arcs or directed edges. The arc
+'sample', has 4 nodes or vertices and 7 arcs or directed edges. The arc
 weights are generated from a (usually uniform) random number generator
 initialized by a seed of '253926760'.
 
